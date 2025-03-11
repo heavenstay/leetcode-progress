@@ -61,7 +61,7 @@ def generate_pie_chart(solved, total):
     plt.pie(sizes, labels=labels, autopct="%1.1f%%", colors=colors, startangle=140)
     plt.axis("equal")
     
-    chart_path = "../progress_chart.png"
+    chart_path = "progress_chart.png"
     plt.savefig(chart_path)
     plt.close()
     
