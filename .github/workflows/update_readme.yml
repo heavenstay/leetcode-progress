@@ -29,9 +29,11 @@ jobs:
           python update_readme.py
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add README.md progress_chart.png
+          git add README.md ../progress_chart.png
           git commit -m 'Updated README with latest progress' || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
