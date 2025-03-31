@@ -1,9 +1,9 @@
 # LeetCode Progress Tracker 🚀
 
 ## 📊 Progress Overview
-- **Total Problems**: 9
-- **Total Solved**: 8
-- **Progress:** [█████████████████---] 8/9 solved
+- **Total Problems**: 10
+- **Total Solved**: 9
+- **Progress:** [██████████████████--] 9/10 solved
 
 ![Progress Chart](progress_chart.png)
 
@@ -16,6 +16,7 @@
 | 4 | Encode And Decode Tiny URL: https://leetcode.com/problems/encode-and-decode-tinyurl/ | HashMaps | Medium | 8 min | 1 | No | Use a dictionnary to store the correspondance between the encoded key and the long url. This code can be improve by adding an other hash_map to verify if the url hasn't already encoded, and by verifying if the key wasn't already used even tough the probability is very low. | Solved |
 | 5 | Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence | HashMaps | Medium | 15 min | 1 | No | Use a set to store unique values from the input list for O(1) lookups. Iterate through the set and only start counting sequences from numbers that have no predecessor (num - 1 not in set). Expand the sequence by counting consecutive numbers (num + 1) in the set. | Solved |
 | 6 | Valid Palindrome | Strings | Easy | 15 min | 2 | No | None | Solved |
-| 7 | Problem 1 | Arrays | Easy | 15 min | 1 | No | Used a dictionary to store seen numbers. | Unsolved |
-| 8 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
-| 9 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
+| 7 | Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted | TwoPointers | Medium | 10 min | 2 | Yes | Use two pointers, one at the start and one at the end. Move the pointers left or right based on the sum, taking advantage of the sorted order of the array. | Solved |
+| 8 | Problem 1 | Arrays | Easy | 15 min | 1 | No | Used a dictionary to store seen numbers. | Unsolved |
+| 9 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
+| 10 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
