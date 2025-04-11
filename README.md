@@ -1,9 +1,9 @@
 # LeetCode Progress Tracker 🚀
 
 ## 📊 Progress Overview
-- **Total Problems**: 12
-- **Total Solved**: 11
-- **Progress:** [██████████████████--] 11/12 solved
+- **Total Problems**: 13
+- **Total Solved**: 12
+- **Progress:** [██████████████████--] 12/13 solved
 
 ![Progress Chart](progress_chart.png)
 
@@ -19,6 +19,7 @@
 | 7 | 3Sum: https://leetcode.com/problems/3sum | TwoPointers | Medium | 34 min | 2 | Yes |  | Solved |
 | 8 | Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted | TwoPointers | Medium | 10 min | 2 | Yes | Use two pointers, one at the start and one at the end. Move the pointers left or right based on the sum, taking advantage of the sorted order of the array. | Solved |
 | 9 | Range Sum Query - Immutable: https://leetcode.com/problems/range-sum-query-immutable/ | PrefixSum | Easy | 20 min | 1 | No |  | Solved |
-| 10 | Problem 1 | Arrays | Easy | 15 min | 1 | No | Used a dictionary to store seen numbers. | Unsolved |
-| 11 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
-| 12 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
+| 10 | Subarray Sum Equals K | PrefixSum | Medium | 1h+ | 4 | Yes |  | Solved |
+| 11 | Problem 1 | Arrays | Easy | 15 min | 1 | No | Used a dictionary to store seen numbers. | Unsolved |
+| 12 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
+| 13 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
