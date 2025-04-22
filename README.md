@@ -1,9 +1,9 @@
 # LeetCode Progress Tracker 🚀
 
 ## 📊 Progress Overview
-- **Total Problems**: 18
-- **Total Solved**: 18
-- **Progress:** [████████████████████] 18/18 solved
+- **Total Problems**: 20
+- **Total Solved**: 20
+- **Progress:** [████████████████████] 20/20 solved
 
 ![Progress Chart](progress_chart.png)
 
@@ -22,9 +22,11 @@
 | 10 | Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence | Arrays & HashMaps | Medium | 15 min | 1 | No | Use a set to store unique values from the input list for O(1) lookups. Iterate through the set and only start counting sequences from numbers that have no predecessor (num - 1 not in set). Expand the sequence by counting consecutive numbers (num + 1) in the set. | Solved |
 | 11 | Valid Palindrome: https://leetcode.com/problems/valid-palindrome/ | Strings | Easy | 7 min | 1 | No | Use a set for valid_letters. Compare left letter and right letter to chech if it's a palindrome. | Solved |
 | 12 | Valid Anagram: https://leetcode.com/problems/valid-anagram/ | Strings | Easy | 20 min | 1 | No | Use hash_map to store distinct letters with the number of time they're appearing in the string. If equals it means it's an anagram. | Solved |
-| 13 | 3Sum: https://leetcode.com/problems/3sum | TwoPointers | Medium | 34 min | 2 | Yes |  | Solved |
-| 14 | Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted | TwoPointers | Medium | 10 min | 2 | Yes | Use two pointers, one at the start and one at the end. Move the pointers left or right based on the sum, taking advantage of the sorted order of the array. | Solved |
-| 15 | Range Sum Query - Immutable: https://leetcode.com/problems/range-sum-query-immutable/ | PrefixSum | Easy | 20 min | 1 | No |  | Solved |
-| 16 | Subarray Sum Equals K | PrefixSum | Medium | 1h+ | 4 | Yes |  | Solved |
-| 17 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
-| 18 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
+| 13 | Trapping Rain Water: https://leetcode.com/problems/trapping-rain-water | TwoPointers | Hard | 22 min | 1 | No |  | Solved |
+| 14 | Container with most water: https://leetcode.com/problems/container-with-most-water | TwoPointers | Medium | 10 min | 1 | No |  | Solved |
+| 15 | 3Sum: https://leetcode.com/problems/3sum | TwoPointers | Medium | 34 min | 2 | Yes |  | Solved |
+| 16 | Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted | TwoPointers | Medium | 10 min | 2 | Yes | Use two pointers, one at the start and one at the end. Move the pointers left or right based on the sum, taking advantage of the sorted order of the array. | Solved |
+| 17 | Range Sum Query - Immutable: https://leetcode.com/problems/range-sum-query-immutable/ | PrefixSum | Easy | 20 min | 1 | No |  | Solved |
+| 18 | Subarray Sum Equals K | PrefixSum | Medium | 1h+ | 4 | Yes |  | Solved |
+| 19 | Counting Bits: https://leetcode.com/problems/counting-bits/description/ | Bit Manipulation | Easy | 20 min | 1 | Yes | Used a helper function to count the number of 1 bits in a number. Use the operation n & (n - 1) to count the number of 1 bits in a number. | Solved |
+| 20 | Single Number | Bit Manipulation | Easy | 5 min | 1 | No | Used XOR to solve the problem. It permits us to find the unique number in the list. Why ? Because XOR of a number with itself is 0. So, if we XOR all the numbers in the list, we will be left with the unique number. | Solved |
